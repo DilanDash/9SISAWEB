@@ -1,13 +1,41 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .formulario {
-    text-align: center;
-  }
-  
+  font-family: sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  background: #40576d;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.formulario {
+  width: 28%;
+  margin: 0 auto;
+  background: url(fondo.jpg)no-repeat 0px 0px;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 33px 67px;
+  border-top: 6px solid #00c3ff;
+  box-shadow: 0px 35px 44px -22px rgba(240, 229, 229, 0.72);
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 26px;
+  color: #fff;
+}
+form {
+  margin: 0 auto;
+}
+.lol{
+  text-align: center;
+  color: #fff;
+
+}
+.ol{
+  background-position: center;
+
+}
+

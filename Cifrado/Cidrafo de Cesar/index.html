@@ -8,22 +8,23 @@
             margin-bottom: 5px;
         }
     </style>
+     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Cifrado de Cesar</h1>
-    <form>
-        <label for="message">Mensaje:</label>
-        <input type="text" id="message" required>
-        
-        <label for="shift">Desplazamiento:</label>
-        <input type="number" id="shift" required>
-        
-        <input type="submit" value="Cifrar">
-    </form>
+    <div class="formulario">
+            <h1>Cifrado de Cesar</h1>
+            <form>
+                <label class="lol" for="message">Mensaje:</label>
+                <input type="text" id="message" required>
+                
+                <label class="lol" for="shift">Desplazamiento:</label>
+                <input type="number" id="shift" required>
+                
+                <input type="submit" value="Cifrar">
+             </form>
 
-    <h2>Resultado:</h2>
-    <p id="result"></p>
-
+            <h2 class="lol">Resultado:</h2>
+            <h2 class="lol" id="result"></h2>
     <script>
         document.querySelector('form').addEventListener('submit', function (event) {
             event.preventDefault();
